@@ -1,0 +1,889 @@
+
+/* ------------Head------------------*/
+
+/* ------------Head------------------*/
+#head{
+    width: 1190px;
+    margin: 10px auto 0;
+    height: 88px;
+    position: relative;
+}
+#head  #head_center{
+    width: 590px;
+    margin: 25px 0 0 75px;
+}
+.search_left {
+    float: left;
+    width: 496px;
+    height: 34px;
+    border: 2px solid #f65;
+    border-right: none;
+}
+.head_left {
+    float: left;
+    width: 180px;
+    height: 88px;
+}
+#head  .head_left img{
+	width: 180px;
+    height: 88px;
+    display: block;
+}
+.top_search {
+    width: 590px;
+    margin: 25px 0 0 75px;
+}
+.s_search {
+    position: absolute;
+    left: 255px;
+    top: 70px;
+    font-family: "SimSun";
+    color: #666;
+}
+.top_ad {
+    width: 220px;
+    height: 60px;
+    margin: 13px 0 0;
+}
+.search_left {
+    float: left;
+    width: 496px;
+    height: 34px;
+    border: 2px solid #f65;
+    border-right: none;
+}
+.search {
+    float: left;
+    border: none;
+    width: 385px;
+    height: 20px;
+    padding: 7px 10px;
+    float: left;
+    font: 14px/20px "Microsoft YaHei";
+    color: #666;
+    background: none;
+}
+.search_btn {
+    background: #f65;
+    height: 38px;
+    width: 92px;
+    cursor: pointer;
+    float: left;
+    font: 18px/34px "Microsoft YaHei";
+    color: #fff;
+    border: none;
+}
+.s_search {
+    position: absolute;
+    left: 255px;
+    top: 70px;
+    font-family: "SimSun";
+    color: #666;
+}
+.s_search a {
+    color: #666;
+    margin-right: 10px;
+}
+.top_ad {
+    width: 220px;
+    height: 60px;
+    margin: 13px 0 0;
+}
+.top_ad img {
+    width: 220px;
+    height: 60px;
+    display: block;
+}
+
+
+/* ------------Nav------------------*/
+#navbg{
+	background: #f65;
+	height: 44px;
+}
+#nav{
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+    margin-top: 10px;
+}
+#nav_box{
+    display: inline-block;
+    zoom: 1;
+ /*   border-right: 1px solid #e35342;*/
+}
+#nav_box .fr_current{
+	background: #e54;
+}
+#nav_box li{
+    float: left;
+    width: 90px;
+    border-left: 1px solid #e35342;
+    position: relative;
+}
+#nav_box li p a{
+    display: block;
+    text-align: center;
+    height: 44px;
+    color: #FFF;
+    font: 18px/44px "Microsoft YaHei";
+    cursor: pointer;
+}
+.nav_list{
+    left: -1px;
+    top: 42px;
+    padding: 10px 0 15px 20px;
+    width: 670px;
+    z-index: 99;
+    border: 1px solid #de4e3e;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    background: #FFF;
+    overflow: hidden;
+    display: block;
+}
+.nav_list_l {
+    float: left;
+    width: 470px;
+    border-right: 1px dashed #ccc;
+    padding: 0 0 10px;
+    margin-top: 10px;
+}
+.nav_list_body {
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.nav_list_l dl {
+    float: left;
+    width: 230px;
+    padding: 0 5px 0 0;
+}
+.nav_list_l dl dt {
+    font: 16px/18px "Microsoft YaHei";
+}
+.nav_list_l dl dt a {
+    color: #f65;
+}
+.nav_list_l dl dd {
+    overflow: hidden;
+}
+.nav_list_l dl dd a {
+    float: left;
+    margin: 9px 15px 0 0;
+    font: 14px/16px "Microsoft YaHei";
+    white-space: nowrap;
+}
+.nav_list_r{
+	float: left;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nav_list_r dt {
+    padding: 0 0 5px;
+}
+.nav_list_r dt img {
+    display: block;
+    width: 100%;
+}
+.nav_list_r dd {
+    text-align: center;
+    padding: 5px 0 0;
+    color: #999;
+}
+.nav_list_r dd a {
+    font: 16px/16px "Microsoft YaHei";
+    color: #333;
+}
+#nav_box li.menu_list_r{
+	width: auto;
+}
+#nav_box li.menu_list_r p a{
+    padding: 0 18px;
+}
+#nav_box  li p a em{
+    background: url(../img/index/icon.png) no-repeat -143px 0;
+    width: 9px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5px;
+}
+#nav_box  li p a:hover{
+	background:  #e54;;
+}
+#nav_box  li p a .up{
+	background-position: -143px -9px;
+}
+#nav_box  li p a em.nav_service{
+    background-position: -220px -33px;
+    width: 22px;
+    height: 18px;
+    margin: -1px 5px 0 0;
+}
+#nav_box  li p a em.nav_shop{
+    background-position: -220px -58px;
+    width: 23px;
+    height: 15px;
+    margin: 0 5px 0 0;
+}
+
+#nav_wap{
+	float: right;
+    font-size: 12px;
+}
+#nav_wap a{
+    font: 18px/18px "Microsoft YaHei";
+    color: #FFF;
+    display: block;
+    padding: 13px 15px 0;
+    height: 31px;
+    border-left: 1px solid #e35342;
+    border-right: 1px solid #e35342;
+}
+#nav_wap i{
+    float: left;
+    width: 11px;
+    height: 17px;
+    background: url(../img/index/icon.png) no-repeat;
+    padding: 0 7px 0 0;
+    margin: 1px 0 0;
+}
+
+/* ------------Banner------------------*/
+#bannerbg{
+    position: relative;
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+#banner .banner_list{
+	width: 100%;
+}
+.banner_list a {
+    display: block;
+    position: relative;
+    height: 380px;
+}
+.banner_list img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 380px;
+}
+.banner_num {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -575px;
+}
+.banner_num span {
+    float: left;
+    width: 28px;
+    height: 28px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    border-radius: 14px;
+    font: 18px/28px "Arial";
+    text-align: center;
+    color: #666;
+    background: #fff;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.banner_num span.current {
+    background: #f65;
+    color: #fff;
+}
+#ban_right{
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    margin-left: 325px;
+    width: 270px;
+    height: 360px;
+    overflow: hidden;
+}
+#ban_right a{
+	display: block;
+    height: 90px;
+    cursor: pointer;
+    margin-top: 1px;
+    background: #FFF;
+}
+#ban_right dl .name{
+	font: 24px/24px "Microsoft YaHei";
+    color: #f65;
+    padding: 20px 0 0;
+}
+#ban_right dl dd{
+    font: 14px/14px "Microsoft YaHei";
+    color: #666;
+    padding: 10px 0 0;
+}
+#ban_right dt{
+	float: left;
+    width: 37px;
+    height: 25px;
+    background: url(../img/index/icon.png) no-repeat;
+    margin: 30px 15px 0;
+}
+#ban_right dl .pet{
+	float: left;
+    width: 37px;
+    height: 25px;
+    background: url(../img/index/icon.png) no-repeat;
+    margin: 30px 15px 0;
+    background-position: 0 -33px;
+    margin: 30px 15px 0 14px;
+}
+#ban_right dl .raise{
+    background-position: -60px -35px;
+    width: 36px;
+    height: 29px;
+}
+#ban_right dl .train{
+	background-position: -124px -33px;
+    width: 32px;
+    height: 29px;
+    margin: 30px 17px 0;
+}
+#ban_right dl .medical{
+    background-position: -180px -33px;
+    width: 32px;
+    height: 21px;
+    margin: 34px 17px 0;
+}
+
+/* ------------Banner------------------*/
+#img_cont{
+    background: #f3f3f3;
+    height: 130px;
+    border-bottom: 1px solid #ddd;
+}
+.img_body {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.img_list {
+    width: 229px;
+    border-left: 1px solid #ddd;
+}
+.left {
+    float: left;
+}
+.img_list a {
+    display: block;
+    height: 130px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.img_list a dl {
+    float: left;
+    width: 100px;
+    height: 85px;
+    padding: 45px 0 0 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.img_list a dl dt {
+    font: 14px/16px "Microsoft YaHei";
+    color: #999;
+}
+.img_list a dl dd {
+    font: 18px/20px "Microsoft YaHei";
+    color: #f65;
+    padding: 10px 0 0;
+}
+.img_r {
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin: 15px 10px 0 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0;
+}
+.img_r img {
+    vertical-align: middle;
+}
+.img_r em {
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+}
+.news {
+    width: 238px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height: 117px;
+    padding: 13px 15px 0;
+}
+.news dl dd a:hover{
+	color: #FF6655;
+}
+.news dl dt {
+    font: 18px/18px "Microsoft YaHei";
+    padding: 0 0 3px;
+    color: #666;
+}
+.news dl dd {
+    padding: 10px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.news dl dd a {
+    color: #333;
+}
+.news dl dd a em {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background: url(../img/index/icon.png) no-repeat -51px 0;
+    margin: 0px 5px 0 0;
+    vertical-align: middle;
+}
+.news dl dd a em {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background: url(../img/index/icon.png) no-repeat -51px 0;
+    margin: 0px 5px 0 0;
+    vertical-align: middle;
+}
+/* ------------magic------------------*/
+#magic{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 1;
+}
+#magic a{
+	cursor: pointer;
+	width: 48px;
+	height: 48px;
+	background: #B2B2B2;
+	display: block;
+	margin-bottom: 1px;
+	background: url(../img/index/btn.png) no-repeat;
+}
+#magic #cat{
+    background-position: 0 -49px;
+}
+#magic #pet{
+    background-position: 0 -98px
+}
+#magic #Nationality{
+    background-position: 0 -147px
+}
+#magic #creeper{
+    background-position: 0 -245px
+}
+#magic #go_top{
+    background-position: 0 -196px;
+    display: none;
+}
+/* ------------magic------------------*/
+/* ------------body dog------------------*/
+#dog_auto{
+    width: 1190px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.dog_mt{
+	padding-top: 20px;
+}
+.dog_body {
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+}
+.dog_title{
+	overflow: hidden;
+    padding: 0 0 10px;
+}
+.dog_title em{
+    width: 50px;
+    height: 46px;
+    background: url(../img/index/common.png) no-repeat;
+    margin: 0 13px 0 0;
+}
+.dog_title h2{
+	font: 40px/44px "Microsoft YaHei";
+    color: #f65;
+}
+.dog_top {
+    height: 388px;
+}
+.dog_left {
+    width: 360px;
+    height: 360px;
+    padding: 14px;
+    border-right: 1px solid #e6e6e6;
+    float: left;
+}
+.dog_slidetop{
+	overflow: hidden;
+}
+.dog_slideflash{
+	overflow: hidden;
+    width: 1080px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+}
+.dog_slideflash a{
+    float: left;
+    width: 360px;
+    height: 360px;
+}
+.dog_slideflash a img{
+    display: block;
+}
+.dog_slidebot{
+    position: relative;
+    bottom: 30px;
+    height: 20px;
+    overflow: hidden;
+    padding: 0 0 0 12px;
+    margin: 0 auto;
+    width: 48px;
+}
+.dog_slidebot span{
+    float: left;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin: 5px 3px 0;
+    background: #666666;
+    border-radius: 50%;
+}
+.dog_slidebot .current{
+    background: #FF6655;
+}
+.dog_rig{
+	overflow: hidden;
+	border-bottom: 1px solid #e6e6e6;
+}
+.dog_rig_t{
+	display: block;
+	font: 16px/16px "Microsoft YaHei";
+	color: #f65;
+	padding: 14px 0 2px 10px;
+}
+.dog_rig_shop{
+    overflow: hidden;
+    padding-bottom: 13px;
+        width: 800px;
+}
+.dog_rig_shop a{
+    float: left;
+    width: 180px;
+    border-right: 1px solid #e6e6e6;
+    padding: 5px 10px 5px 9px;
+    cursor: pointer;
+}
+.dog_rig_shop dl .name{
+	font: 16px/18px "Microsoft YaHei";
+    color: #333;
+}
+.dog_rig_shop  dl dd{
+	padding: 6px 0 0;
+    color: #999;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dog_rig_b{
+    width: 800px;
+    float: left;
+}
+.dog_right{
+	width: 799px;
+	float: left;
+}
+.class_bot_shop{
+	overflow: hidden;
+    width: 801px;
+}
+.class_bot_shop a{
+    float: left;
+    width: 236px;
+    border-right: 1px solid #e6e6e6;
+    padding: 15px 15px 5px;
+    cursor: pointer;
+}
+.class_bot_shop dl{
+	overflow: hidden;
+}
+.class_bot_shop dl dt{
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-right: 12px;
+}
+.class_bot_shop dl .name{
+	font: 20px/22px "Microsoft YaHei";
+    color: #333;
+}
+.class_bot_shop dl dd{
+    padding: 8px 0 0;
+    color: #999;
+    line-height: 20px;
+}
+.dog_bot {
+    background: #f3f3f3;
+    height: 178px;
+    border-top: 1px solid #e6e6e6;
+}
+.dog_bot_tit {
+    font: 16px/16px "Microsoft YaHei";
+    color: #f65;
+}
+.dog_bot .dog_bot_lebox dl{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.dog_bot .dog_bot_left{
+    padding: 14px;
+    border-right: 1px solid #e6e6e6;
+    width: 360px;
+    height: 152px;
+    float: left;
+}
+.bbs {
+    overflow: hidden;
+    margin-top: 15px;
+}
+.bbs dt{
+    float: left;
+    margin-right: 15px;
+}
+.bbs dt img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    border: 0;
+}
+.bbs dd {
+    color: #999;
+    padding: 6px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bbs dd a {
+    font: 16px/18px "Microsoft YaHei";
+    color: #333;
+}
+.dog_bot_cent{
+    width: 571px;
+    padding: 14px;
+    overflow: hidden;
+    float: left;
+}
+.left_btn {
+    width: 12px;
+    height: 22px;
+    background: url("../img/index/icon.png") no-repeat -226px 0;
+    cursor: pointer;
+    margin: 38px 20px 0 7px;
+    float: left;
+}
+.right_btn {
+    width: 12px;
+    height: 22px;
+    background: url("../img/index/icon.png") no-repeat -246px 0;
+    cursor: pointer;
+    margin: 38px 7px 0;
+    float: right;
+}
+.dog_bot_slide{
+    margin-top: 15px;
+}
+.dog_bot_slide_box{
+    overflow: hidden;
+    width: 495px;
+    float: left;
+}
+.dog_bot_slide_main{
+    width: 2475px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    left: -495px;
+}
+.dog_bot_slide_main dl{
+	float: left;
+    width: 495px;
+}
+.dog_bot_slide_main dt{
+    float: right;
+    margin-left: 10px;
+}
+.dog_bot_slide_main dl dt img {
+    display: block;
+    width: 120px;
+    height: 90px;
+    padding: 4px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+.dog_bot_slide_main dl dd {
+    color: #666;
+    padding: 10px 0 0;
+    line-height: 20px;
+    height: 56px;
+    overflow: hidden;
+}
+.dog_bot_slide_main dl dd.name {
+    font: 16px/18px "Microsoft YaHei";
+    padding: 15px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: auto;
+}
+.dog_bot_right{
+	float: right;
+	width: 200px;
+	height: 178px;
+	background: #FF6655;
+}
+.dog_bot_right a{
+	display: block;
+	width: 200px;
+	height: 178px;
+	cursor: pointer;
+}
+.dog_bot_right dl dt img{
+    width: 200px;
+    height: 178px;
+}
+.dog_bot_right dl dd{
+    width: 171px;
+    margin: -55px 0 0 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font: 16px/18px "Microsoft YaHei";
+    color: #333;
+}
+.dog_bot_right dl .name{
+	display: block;
+    padding: 7px 0 0;
+    color: #999;
+    margin: 0px 0 0 14px;
+	font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif,"Microsoft YaHei";
+}
+.dog_bot_right dl dd:hover{
+	color: #FF6655;
+}
+.dog_bot dl a:hover{
+	color: #FF6655;
+	text-decoration: underline;
+}
+.dog_right a:hover .name{
+	color: #FF6655;
+}
+#ban_right a dl dd:hover{
+	color: #FF6655;
+}
+.dog_rig_t:hover{
+	color: #FF6655;
+	text-decoration: underline;
+}
+.nav_list_l dl dd a:hover{
+	color: #FF6655;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

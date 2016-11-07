@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" type="text/css" href="../css/register.css" />
+		<script src="../js/jquery-1.10.1.min.js" type="text/javascript"></script>
+		<script src="../js/register.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div id="topbg">
+			<div id="top">
+				<div class="top_left">
+					<p>
+						<a href="../index.html" id="t_left">波奇网</a>
+					</p>
+					<p>
+						<a href="#">波奇商场</a>
+					</p>
+					<p>
+						<a href="#">波奇服务</a>
+					</p>
+					<p>
+						<a href="#">波奇论坛</a>
+					</p>
+					<p>
+						<a href="#">宠物百科</a>
+					</p>
+				</div>
+				<ul class="toolbar_right right">
+					<li class="left_n">
+						<a href="login.html">登录</a>
+					</li>
+					<li>
+						<a href="html/login.html">注册</a>
+					</li>
+					<li class="toolbar_wb">
+						<a href="">
+							<em></em> 微博
+						</a>
+						<div class="wx_select none" style="display: none;">
+							<img src="../img/index/wb.jpg" style="" />
+						</div>
+					</li>
+					<li class="toolbar_weixin">
+						<span>
+								<em class="weixin"></em>
+								微信
+							</span>
+						<div class="wx_select none" style="display: none;">
+							<img src="../img/index/wchat.jpg" />
+						</div>
+					</li>
+					<li class="last">
+						<a href="">
+							<em class="tel"></em> 手机版
+						</a>
+						<dl class="none" style="display: none;">
+							<dt>
+									<img src="../img/index/tel.jpg" style="float: left;" />
+								</dt>
+							<dd class="name">波奇宠物APP</dd>
+							<dd style="font-size:12px;">注册送100首单送50 </dd>
+							<dd>
+								<a href="" class="iphone_left"></a>
+							</dd>
+							<dd>
+								<a href="" class="android_left"></a>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="reg">
+			<div class="login_auto">
+				<div class="login_top">
+					<a href="../index.html"><img src="../img/login/logo.gif" /></a>
+					<h1>用户注册</h1>
+					<p>已经有波奇账号,
+						<a href="login.html">直接登录</a>
+					</p>
+				</div>
+				<div class="reg_box">
+					<div class="reg_l">
+						<div class="reg_l_tag">
+							<div class="reg_l_t_list current">
+								<em></em> 手机注册
+							</div>
+							<div class="reg_l_t_list">
+								<em class="email"></em> 邮箱注册
+							</div>
+						</div>
+						<div class="tag_body">
+								<div class="forget_list ">
+									<span>手机号码:</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="请输入手机号码 " maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>设置密码：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="6-20大小写英文字母、数字或符号" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>确认密码：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="请再次输入密码" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>昵称：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="请输入昵称" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>验证码：</span>
+									<div class="yzm borderd">
+										<input type="text "id="mobile " class="mobile w80" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+									<span class="yzm">
+										<img src="../img/login/vcode (1).png" id = "code" class="code"/>
+									</span>
+									<div class="change">
+										<a href="">看不清?你眼瞎啊</a>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>短信验证码：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile w80 "maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+									<div class="getcode">获取短信验证码</div>
+								</div>
+								<div class="forget_list" style="color: #333;padding: 20px 0 0;">
+									<span>&nbsp;</span>
+									<input type="checkbox" name="checkbox" id="checkbox" checked="checked"/>我已同意并阅读
+									<a href="#" style="color: #3366cc;">《波奇网服务协议》</a>
+								</div>
+								<div class="forget_list">
+									<span>&nbsp;</span>
+									<a href="#" class="sub" style="margin-top: 10px;">提交</a>
+								</div>
+								<div class="forget_list">
+									<span>&nbsp;</span>
+								</div>
+						</div>
+						<div class="tag_body none">
+								<div class="forget_list ">
+									<span>手机号码:</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="请输入手机号码 " maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>邮箱:</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="请输入您的电子邮箱地址" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>设置密码：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="6-20大小写英文字母、数字或符号" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>确认密码：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="请再次输入密码" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>昵称：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile " placeholder="请输入昵称" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>验证码：</span>
+									<div class="yzm borderd">
+										<input type="text "id="mobile " class="mobile w80" maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+									<span class="yzm">
+										<img src="../img/login/vcode (1).png" id = "code" class="code"/>
+									</span>
+									<div class="change">
+										<a href="">看不清?你眼瞎啊</a>
+									</div>
+								</div>
+								<div class="forget_list ">
+									<span>短信验证码：</span>
+									<div class="yzm borderd ">
+										<input type="text "id="mobile " class="mobile w80 "maxlength="11 "/>
+										<div class="k_em ">
+											<div class="tip "></div>
+										</div>
+									</div>
+									<div class="getcode">获取短信验证码</div>
+								</div>
+								<div class="forget_list" style="color: #333;padding: 20px 0 0;">
+									<span>&nbsp;</span>
+									<input type="checkbox" name="checkbox" id="checkbox" checked="checked"/>我已同意并阅读
+									<a href="#" style="color: #3366cc;">《波奇网服务协议》</a>
+								</div>
+								<div class="forget_list">
+									<span>&nbsp;</span>
+									<a href="#" class="sub" style="margin-top: 10px;">提交</a>
+								</div>
+								<div class="forget_list">
+									<span>&nbsp;</span>
+								</div>
+						</div>
+					</div>		
+					<div class="reg_r ">
+						<a href="# "><img src="../img/login/reg_ad.jpg "/></a>
+					</div>
+				</div>
+			</div>
+			<div id="footer_ftbg">
+			<div id="footer_ft">
+				<p class="footer">
+					<a href="" target="_blank">关于波奇</a><span>|</span>
+					<a href="" target="_blank">友情链接</a><span>|</span>
+					<a href="" target="_blank">诚聘英才</a><span>|</span>
+					<a href="" target="_blank">联系我们</a><span>|</span>
+					<a href="" target="_blank">网站地图</a><span>|</span>
+					<a href="" target="_blank">意见反馈</a><span>|</span>
+					<a href="" target="_blank">帮助中心</a><span>|</span> 客服热线：400-820-6098
+				</p>
+				<p class="link">
+					Copyright © 2007-2016 Boqii.com All Rights Reserved 光橙（上海）信息科技有限公司 版权所有 沪ICP备13034501号-2 增值电信业务经营许可证：沪B2-20140120
+				</p>
+				<p class="copy">
+					<a href="" target="_blank"><img src="../img/index/foot_gs.png" alt="" /></a>
+					<a href="" target="_blank"><img src="../img/index/foot_cx.png" /></a>
+					<a href="" target="_blank"><img src="../img/index/foot_kx.png" /></a>
+					<a href="" target="_blank"><img src="../img/index/foot_zx.png" /></a>
+				</p>
+			</div>
+		</div>
+		</div>
+	</body>
+</html> 
+<!--
+-->

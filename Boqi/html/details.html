@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/details.css"/>
+		<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/details.js" type="text/javascript" charset="utf-8"></script>
+		<title>商品详情页details</title>
+	</head>
+	<body>
+		<div class="toolbar">
+			<div class="tool_auto">
+				<div class="tool_l">
+					<div class="collect left">
+						<em></em>
+						<a href="#">收藏波奇商城</a>
+					</div>
+					<div class="city left">
+						<div class="city_l">
+							<em></em>
+							<strong id="TopCityInfo">北京</strong>
+							<p></p>
+						</div>
+						<div class="ICityList city_select none">
+		                    <dl>
+		                        <dt>华东地区：</dt>
+		                        <dd>
+		                            <a href="javascript:SetCity(31);" id="p_31">上海</a>
+		                            <a href="javascript:SetCity(32);" id="p_32">江苏</a>
+		                            <a href="javascript:SetCity(33);" id="p_33">浙江</a>
+		                            <a href="javascript:SetCity(34);" id="p_34">安徽</a>
+		                            <a href="javascript:SetCity(37);" id="p_37">山东</a>
+		                        </dd>
+		                    </dl>
+		                    <dl>
+		                        <dt>华北东北：</dt>
+		                        <dd>
+		                            <a href="javascript:SetCity(11);" id="p_11" class="current">北京</a>
+		                            <a href="javascript:SetCity(12);" id="p_12">天津</a>
+		                            <a href="javascript:SetCity(13);" id="p_13">河北</a>
+		                            <a href="javascript:SetCity(14);" id="p_14" class="selected">山西</a>
+		                            <a href="javascript:SetCity(15);" id="p_15">内蒙古</a>
+		                            <a href="javascript:SetCity(21);" id="p_21">辽宁</a>
+		                            <a href="javascript:SetCity(22);" id="p_22">吉林</a>
+		                            <a href="javascript:SetCity(23);" id="p_23">黑龙江</a>
+		                        </dd>
+		                    </dl>
+		                    <dl>
+		                        <dt>华南西南：</dt>
+		                        <dd>
+		                            <a href="javascript:SetCity(44);" id="p_44">广东</a>
+		                            <a href="javascript:SetCity(45);" id="p_45">广西</a>
+		                            <a href="javascript:SetCity(46);" id="p_46">海南</a>
+		                            <a href="javascript:SetCity(35);" id="p_35">福建</a>
+		                            <a href="javascript:SetCity(51);" id="p_51">四川</a>
+		                            <a href="javascript:SetCity(50);" id="p_50">重庆</a>
+		                            <a href="javascript:SetCity(52);" id="p_52">贵州</a>
+		                            <a href="javascript:SetCity(53);" id="p_53">云南</a>
+		                            <a href="javascript:SetCity(54);" id="p_54">西藏</a>
+		                        </dd>
+		                    </dl>
+		                    <dl class="last">
+		                        <dt>华中西北：</dt>
+		                        <dd class="nobor">
+		                            <a href="javascript:SetCity(42);" id="p_42">湖北</a>
+		                            <a href="javascript:SetCity(43);" id="p_43">湖南</a>
+		                            <a href="javascript:SetCity(41);" id="p_41">河南</a>
+		                            <a href="javascript:SetCity(36);" id="p_36">江西</a>
+		                            <a href="javascript:SetCity(61);" id="p_61">陕西</a>
+		                            <a href="javascript:SetCity(62);" id="p_62">甘肃</a>
+		                            <a href="javascript:SetCity(63);" id="p_63">青海</a>
+		                            <a href="javascript:SetCity(64);" id="p_64">宁夏</a>
+		                            <a href="javascript:SetCity(65);" id="p_65">新疆</a>
+		                        </dd>
+		                    </dl>
+						</div>
+					</div>
+				</div>
+				<ul class="toolbar_r right" id="TopUserInfo">
+					<li class="left_n">
+						<a href="html/login.html">登录</a>
+					</li>
+					<li>
+						<a href="html/register.html">注册</a>
+					</li>
+					<li class="tel">
+						<a href="">
+							<em class="tel"></em> 手机版
+						</a>
+						<div class="tel_select none">
+							<dl>
+								<dt><img src="../img/index/tel.jpg" style="float: left;"/></dt>
+								<dd><stong>波奇宠物APP</stong></dd>
+								<dd>注册送100元，首单再送50元</dd>
+								<dd><a href="" class="iphone left"></a></dd>
+								<dd><a href="" class="android left"></a></dd>
+							</dl>
+						</div>				
+					</li>
+					<li class="attent">
+		                <a href="javascript:;">关注波奇</a>
+		                <div class="gz_select none">
+		                    <dl>
+		                        <dt><img src="../img/shoplist/wx.gif" alt=""></dt>
+		                        <dd><strong>官方微信</strong></dd>
+		                        <dd>boqiiwang</dd>
+		                    </dl>
+		                    <dl class="select_wb">
+		                        <dt><img src="../img/shoplist/wb.gif" alt=""></dt>
+		                        <dd><strong>官方微博</strong></dd>
+		                        <dd><a   href="http://weibo.com/boqii">波奇网</a><span></span></dd>
+		                    </dl>
+		                </div>
+		            </li>
+		            <li class="r_menu">
+		                <img src="../img/shoplist/r_icon.png" alt="">
+		                <a href="http://www.boqii.com/"   class="home">波奇首页</a>
+		                <div class="r_select none">
+		                    <a href="http://vet.boqii.com/"  ><em class="a2"></em>波奇服务</a>
+		                    <a href="http://bbs.boqii.com/"  ><em class="a3"></em>波奇论坛</a>
+		                    <a href="" class="last"  ><em class="a4"></em>宠物百科</a>
+		                </div>
+					</li>	
+				</ul>
+			</div>
+		</div>
+		<div id="header">
+		    <div class="top_auto">
+		        <div class="logo left">
+		            <a href="../index.html"><img src="../img/shoplist/logo11.gif" alt="波奇商城"></a>
+		        </div>
+		        <div class="top_search left">
+		            <div class="top_search_t">
+		                <form action="" method="get" id="TopSearchForm" onsubmit="return false;">
+			                <input type="text" id="TopSearchWord" autocomplete="off" placeholder="请输入商品名称" class="search_s" style="color: rgb(51, 51, 51);"/>
+			                <input type="submit"  class="search_btn" value="搜 索">
+			                <div id="bq_historyword" class="bq_history " style="display:none;"></div>
+			                <div class="bq_suggest none">
+			                </div>
+		                </form>
+		            </div>
+		            <div class="top_search_b mt5">
+						热门搜索：
+						<a href="#"  >狗粮</a>
+		                <a href="#">欧帝亿</a>　
+		                <a href="#"  >福来恩</a>　
+		                <a href="#"  >进口猫粮</a>
+						<a href="#"  >成犬狗粮</a>　
+						<a href="#"  >爱丽思</a>            
+		            </div>
+		        </div>
+		        <div class="top_ad right">
+		        	<a href=""  ><img src="../img/shoplist/logor11.gif"></a>
+		        </div>
+		    </div>
+		</div>
+		<div class="nav">
+			<div class="nav_auto">
+				<div class="nav_l left">
+					<p>全部商品分类</p>
+					<em></em>
+					<div class="nav_shoplist">
+						
+
+					</div>
+				</div>
+				<div class="nav_c left">
+					<ul>
+						<li><a href="../index.html" class="current">首页</a></li>
+						<li><a href="">狗狗</a></li>
+						<li><a href="">猫猫</a></li>
+						<li><a href="">小宠</a></li>
+						<li><a href="">水族</a></li>
+						<li><a href="">全球购</a></li>
+						<li><a href="">团购</a></li>
+						<li><a href="">全球管</a></li>
+						<li><a href="">波奇服务</a></li>
+					</ul>
+				</div>
+				<div class="nav_r">
+					<div class="shop_text">
+						<em></em>
+						<p>购物车</p>
+					</div>					
+					<span>0</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,195 @@
+.loginbg{
+    background: #f3f3f3;
+}
+.login_auto {
+    width: 990px;
+    margin: 0 auto;
+}
+.login_top a{
+	overflow: hidden;
+}
+.login_top {
+    padding: 20px 0 15px;
+    overflow: hidden;
+    position: relative;
+}
+.login_top img {
+    float: left;
+    width: 190px;
+    height: 88px;
+}
+
+.login_top h1 {
+    float: left;
+    height: 40px;
+    color: #666;
+    font: 24px/40px "Microsoft YaHei";
+    border-left: 1px solid #ccc;
+    padding: 0 0 0 10px;
+    margin: 25px 0 0 10px;
+}
+.login_body {
+    padding: 9px;
+    overflow: hidden;
+    background: #FFF;
+    border: 1px solid #DDD;
+}
+.login_left {
+    width: 480px;
+    float: left;
+    display: inline-block;
+}
+.login_right {
+    width: 410px;
+    padding: 25px 35px 0 0;
+    float: right;
+    display: inline-block;
+}
+.box{border: 1px solid #ddd;
+    height: 48px;
+    padding: 0 13px 0 7px;
+    margin-top: -1px;
+}
+.box em {
+    float: left;
+    width: 30px;
+    height: 24px;
+    background: url(../img/login/login.png) no-repeat;
+    margin: 12px 0 0;
+}
+em.username {
+    background-position: 0 0;
+}
+input {
+    float: left;
+    width: 350px;
+    height: 28px;
+    padding: 10px 0 10px 7px;
+    font: 14px/28px "Microsoft YaHei";
+    color: #666;
+    border: none;
+}
+em.password {
+    background-position: -30px 0;
+}
+.forget_list {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.login_body .login_r .yzm {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.yzm {
+    padding-left: 4px;
+}
+.borderd {
+    border: 1px solid #ddd;
+}
+.yzm {
+    float: left;
+    height: 38px;
+    padding: 0 10px;
+}
+.forget_list span {
+    float: left;
+    font: 16px/38px "Microsoft YaHei";
+    color: #666;
+    width: 100px;
+    text-align: right;
+}
+.forget_list_yzmtxt {
+    position: relative;
+    left: -3px;
+    top: 0px;
+}
+.yzm input {
+    float: left;
+    height: 28px;
+    padding: 5px 0;
+    font: 14px/28px "Microsoft YaHei";
+    border: none;
+    color: #666;
+}
+.w80 {
+    width: 80px;
+}
+
+.k_em {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.yzm .tip.err {
+    background: url("../img/login/login.png") no-repeat -36px -33px;
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+.change a{
+	color: #1589DA;
+}
+.login_text {
+    overflow: hidden;
+}
+.checkbox{
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin-right: 5px;
+}
+.login{
+	font-size: 13px;
+	color: #666666;
+	margin: 10px 0 15px;
+}
+.login a{
+	float: right;
+	font-size: 13px;
+	color: #666666;
+}
+.forget{
+	margin-right: 16px;
+	border-right: 1px solid #666666;
+	padding-right: 16px;
+}
+.login_btn{
+	display: block;
+	background: #FF6655;
+	text-align: center;
+	color: #FFFFFF;
+	height: 46px;
+	line-height: 46px;
+	font-size: 22px;
+	border: 2px solid #DE4E3E;
+	letter-spacing: 10px;
+}
+.other_body {
+    margin-top: 10px;
+}
+.other_text {
+    border-bottom: 1px solid #ccc;
+    height: 14px;
+    line-height: 30px;
+}
+.other_text span {
+    color: #999;
+    background: #fff;
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.other {
+    text-align: center;
+    color: #ccc;
+    margin-top: 15px;
+}
+.other a {
+    color: #666;
+}
+-----------------------------------
+.login_right .login a:hover{
+	color: #FF6655;
+}
